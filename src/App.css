@@ -21,6 +21,18 @@
   place-items: center;
   justify-content: center;
 }
+.personal-input{
+  display: flex;
+}
+input{
+  background-color: transparent;
+  color: black;
+  border: 0;
+}
+input:focus{
+  outline: none;
+}
+
 .section{
   border-bottom: 1px solid black;
 }
