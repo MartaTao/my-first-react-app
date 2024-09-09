@@ -1,0 +1,35 @@
+#root {
+  padding: 0.5rem;
+  width: 100%;
+}
+.container{
+  display: flex;
+  background-color: white;
+}
+.general-information{
+  width: 40%;
+  background-color:aliceblue;
+  color:black;
+  padding: 0.5rem;
+}
+.personal-information{
+  display: flex;
+}
+.photo{
+  width: 50%;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+.section{
+  border-bottom: 1px solid black;
+}
+.experience-information{
+  float: right;
+  width: 100%;
+  padding: 0.5rem;
+}
+svg{
+  width:24px;
+  height:24px; 
+}
